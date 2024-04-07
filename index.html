@@ -23,25 +23,25 @@
     window.addEventListener("message", function(event) {
        // Check message type
        if (event.data.type === "Map") {       
-          window.unityInstance.SendMessage('stops', 'MapFromJs');
+          window.unityInstance.SendMessage('with changed roof', 'MapFromJs');
        }
        if (event.data.type === "InnerScreen") {
-          window.unityInstance.SendMessage('stops', 'InnerScreenFromJs');
+          window.unityInstance.SendMessage('with changed roof', 'InnerScreenFromJs');
        }
        if (event.data.type === "OuterScreen") {
-          window.unityInstance.SendMessage('stops', 'OuterScreenFromJs');
+          window.unityInstance.SendMessage('with changed roof', 'OuterScreenFromJs');
        }
        if (event.data.type === "InnerSideScreen") {
-          window.unityInstance.SendMessage('stops', 'InnerSideScreenFromJs');
+          window.unityInstance.SendMessage('with changed roof', 'InnerSideScreenFromJs');
        }
        if (event.data.type === "OuterSideScreen") {
-          window.unityInstance.SendMessage('stops', 'OuterSideScreenFromJs');
+          window.unityInstance.SendMessage('with changed roof', 'OuterSideScreenFromJs');
        }
        if (event.data.type === "BusSchedule") {
-          window.unityInstance.SendMessage('stops', 'BusScheduleFromJs');
+          window.unityInstance.SendMessage('with changed roof', 'BusScheduleFromJs');
        }
        if (event.data.type === "Silluete") {
-          window.unityInstance.SendMessage('stops', 'SillueteFromJs');
+          window.unityInstance.SendMessage('with changed roof', 'SillueteFromJs');
        }
    });
     </script>
